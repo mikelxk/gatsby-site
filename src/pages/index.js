@@ -15,9 +15,7 @@ const IndexPage = () => (
         alt="avatar"
       />
       <div className="mt-8 sm:mt-0 sm:ml-8 flex flex-col justify-center">
-        <p>
-          Hi, I'm
-        </p>
+        <p>Hi, I'm</p>
         <h1>Xiaokai Li</h1>
       </div>
     </div>
