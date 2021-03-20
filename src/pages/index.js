@@ -1,16 +1,15 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import Badges from "../components/Badges"
 import SEO from "../components/seo"
+import avatar from "../images/avatar.webp"
 
 const IndexPage = () => (
   <div className="mx-auto max-w-screen-md px-4 sm:px-6 md:px-8 my-12 sm:my-20 md:my-32">
     <SEO title="Home" />
     <div className="flex flex-col sm:flex-row">
-      <StaticImage
+      <img
         className="w-24 md:w-32 md:h-32 rounded-full"
-        src="../images/avatar.webp"
+        src={avatar}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="avatar"
       />
