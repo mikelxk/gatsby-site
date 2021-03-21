@@ -10,15 +10,14 @@ const IndexPage = () => (
       <img
         className="w-24 md:w-32 md:h-32 rounded-full"
         src={avatar}
-        formats={["AUTO", "WEBP", "AVIF"]}
         alt="avatar"
       />
       <div className="mt-8 sm:mt-0 sm:ml-8 flex flex-col justify-center">
-        <p>Hi, I'm</p>
-        <h1>Xiaokai Li</h1>
+        <p className="text-2xl md:text-3xl leading-tight">Hi, I'm</p>
+        <h1 className="leading-tight">Xiaokai Li</h1>
       </div>
     </div>
-    <p className="mt-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
+    <p className="mt-10 text-lg leading-7">
       I'm currently an undergraduate at University of Florida. I'm interested in
       C++ and TypeScript.
     </p>

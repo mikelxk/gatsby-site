@@ -11,7 +11,7 @@ const Badge = ({ Icon, href }) => (
     <Icon size="24" />
   </a>
 )
-export default () => (
+const Badges = () => (
   <div className="mt-10 flex gap-x-16">
     <Badge Icon={GoMarkGithub} href="https://github.com/mikelxk" />
     <Badge Icon={FaTwitter} href="https://twitter.com/mike_lxk" />
@@ -19,3 +19,5 @@ export default () => (
     <Badge Icon={FaBroadcastTower} href="https://mikelxk.github.io/" />
   </div>
 )
+
+export default Badges
