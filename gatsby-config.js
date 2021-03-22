@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `mike's site`,
         short_name: `starter`,
         start_url: `/`,
         display: `minimal-ui`,

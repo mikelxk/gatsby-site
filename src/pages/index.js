@@ -8,9 +8,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="flex flex-col sm:flex-row">
       <img
-        className="w-24 md:w-32 md:h-32 rounded-full"
+        className="w-24 md:w-32 md:h-32"
         src={avatar}
         alt="avatar"
+        style={{ borderRadius: "50%" }}
       />
       <div className="mt-8 sm:mt-0 sm:ml-8 flex flex-col justify-center">
         <p className="text-2xl md:text-3xl leading-tight">Hi, I'm</p>
