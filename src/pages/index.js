@@ -11,7 +11,11 @@ const IndexPage = () => (
         className="w-24 md:w-32 md:h-32"
         src={avatar}
         alt="avatar"
-        style={{ borderRadius: "50%" }}
+        style={{
+          borderRadius: "50%",
+          WebkitBorderRadius: "50%",
+          appearance: "none",
+        }}
       />
       <div className="mt-8 sm:mt-0 sm:ml-8 flex flex-col justify-center">
         <p className="text-2xl md:text-3xl leading-tight">Hi, I'm</p>
