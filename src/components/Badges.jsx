@@ -12,7 +12,7 @@ const Badge = ({ Icon, href }) => (
   </a>
 )
 const Badges = () => (
-  <div className="mt-10 flex gap-x-16">
+  <div className="mt-10 flex space-x-16">
     <Badge Icon={GoMarkGithub} href="https://github.com/mikelxk" />
     <Badge Icon={FaTwitter} href="https://twitter.com/mike_lxk" />
     <Badge Icon={FaEnvelope} href="mailto:mike.lxk@gmail.com" />
