@@ -13,7 +13,7 @@
   @media (prefers-color-scheme: dark) {
     body {
       --tw-bg-opacity: 1;
-      background-color: rgba(44, 47, 54, var(--tw-bg-opacity));
+      background-color: rgba(50, 51, 54, var(--tw-bg-opacity));
     }
   }
 }
