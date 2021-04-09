@@ -1,2 +1,6 @@
-# Mikes's Site
-written in gatsby
+# Mike's Site
+
+Written in gatsby
+
+## TODO:
+[] add blog
