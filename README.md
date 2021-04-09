@@ -3,4 +3,7 @@
 Written in gatsby
 
 ## TODO:
-[] add blog
+
+- [] add blog
+
+- [] migrate to a more plain config other than Gatsby
