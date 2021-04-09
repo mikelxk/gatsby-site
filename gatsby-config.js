@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Mike.Lxk`,
     description: `Mike's home page`,
-    author: `mike.lxk`,
+    author: `Mike.lxk`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `mike's site`,
-        short_name: `starter`,
+        name: `Mike's site`,
+        short_name: `Mike's site`,
         start_url: `/`,
         display: `minimal-ui`,
         icon: `src/images/avatar.webp`, // This path is relative to the root of the site.
