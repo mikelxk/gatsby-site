@@ -6,16 +6,15 @@
   p {
     @apply text-gray-900 dark:text-gray-100;
   }
-  body {
-    --tw-bg-opacity: 1;
-    background-color: rgba(232, 232, 232, var(--tw-bg-opacity));
-  }
-  @media (prefers-color-scheme: dark) {
-    body {
-      --tw-bg-opacity: 1;
-      background-color: rgba(50, 51, 54, var(--tw-bg-opacity));
-    }
-  }
 }
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #f6f6f6;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(50, 51, 54);
+  }
+}
