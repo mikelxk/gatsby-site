@@ -1,7 +1,16 @@
 import React from "react"
 import { FaTwitter, FaBroadcastTower, FaEnvelope } from "react-icons/fa"
 import { GoMarkGithub } from "react-icons/go"
-const Badge = ({ Icon, href, text }) => (
+import { IconType } from "react-icons/lib"
+const Badge = ({
+  Icon,
+  href,
+  text,
+}: {
+  Icon: IconType
+  href: string
+  text: string
+}) => (
   <a
     href={href}
     aria-label={text}
