@@ -20,7 +20,7 @@ const Badge = ({
   </a>
 )
 const Badges = () => (
-  <div className="mt-10 flex space-x-16">
+  <div className="mt-10 flex gap-x-16">
     <Badge
       Icon={GoMarkGithub}
       href="https://github.com/mikelxk"
