@@ -5,8 +5,9 @@ module.exports = {
     author: `Mike.lxk`,
   },
   plugins: [
-    "gatsby-plugin-postcss",
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-pnpm`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
