@@ -46,5 +46,14 @@
   },
   "bugs": {
     "url": "https://github.com/mikelxk/gatsby-site/issues"
+  },
+  "eslintConfig": {
+    "globals": {
+      "__PATH_PREFIX":true
+    },
+    "extends": "react-app",
+    "rules":{
+      "react/react-in-jsx-scope": "off"
+    }
   }
 }

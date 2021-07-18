@@ -1,4 +1,3 @@
-import React from "react"
 import { FaTwitter, FaBroadcastTower, FaEnvelope } from "react-icons/fa"
 import { GoMarkGithub } from "react-icons/go"
 import { IconType } from "react-icons/lib"

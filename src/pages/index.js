@@ -1,4 +1,3 @@
-import React from "react"
 import Badges from "../components/Badges"
 import Seo from "../components/seo"
 import avatar from "../images/avatar.webp"
