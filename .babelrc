@@ -3,10 +3,7 @@
     [
       "babel-preset-gatsby",
       {
-        "reactRuntime": "automatic",
-        "targets": {
-          "browsers": [">0.5%", "not IE 11", "not op_mini all"]
-        }
+        "reactRuntime": "automatic"
       }
     ]
   ]
