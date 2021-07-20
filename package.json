@@ -6,7 +6,7 @@
   "author": "Mike lxk <mike.lxk@gmail.com>",
   "dependencies": {
     "gatsby": "^3.9.1",
-    "gatsby-plugin-image": "^1.9.0",
+    "gatsby-plugin-image": "^1.10.0",
     "gatsby-plugin-manifest": "^3.9.0",
     "gatsby-plugin-offline": "^4.9.0",
     "gatsby-plugin-pnpm": "^1.2.6",
