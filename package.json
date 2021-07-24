@@ -7,7 +7,7 @@
   "dependencies": {
     "gatsby": "^3.10.1",
     "gatsby-plugin-image": "^1.10.1",
-    "gatsby-plugin-manifest": "^3.9.0",
+    "gatsby-plugin-manifest": "^3.10.0",
     "gatsby-plugin-offline": "^4.10.0",
     "gatsby-plugin-pnpm": "^1.2.6",
     "gatsby-plugin-react-helmet": "^4.10.0",
