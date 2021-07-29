@@ -49,14 +49,14 @@
   },
   "eslintConfig": {
     "globals": {
-      "__PATH_PREFIX":true
+      "__PATH_PREFIX": true
     },
     "extends": "react-app",
-    "rules":{
+    "rules": {
       "react/react-in-jsx-scope": "off"
     }
   },
-  "browerslist":[
+  "browerslist": [
     "edge 91"
   ]
 }
