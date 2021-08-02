@@ -2015,7 +2015,6 @@ appgame.com
 appinn.com
 appjiagu.com
 apple-mapkit.com
-apple.com
 apple2003.com
 appsimg.com
 appsina.com
@@ -5823,7 +5822,6 @@ iciba.com
 icis-china.com
 icitycdn.com
 icjyw.com
-icloud.com
 icoat.cc
 icourse163.org
 icpcw.com
